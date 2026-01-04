@@ -19,7 +19,7 @@
 * Authored by: Murilo Venturoso <muriloventuroso@gmail.com>
 */
 
-public void PDFTricks.Function () {
+namespace PDFTricks.Backend {
 
 
     private async bool merge_file (string inputs, string output_file) {
