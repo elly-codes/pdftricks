@@ -78,20 +78,20 @@ public class PDFTricks.SplitPDF : PDFTricks.PageTemplate {
                 var output_file = chooser_output.save.end (res).get_path ();
 
                 if (split == true) {
-                    if (checkbuttons.selected == SplitCheckButtons.SplitType.ALL) {
+                    if (checkbuttons.selected == SplitType.ALL) {
                         process_begin ();
                         split_file_all.begin (file_pdf.get_path (), output_file,
                             (obj, res) => {
                                 process_finished (split_file_all.end (res));
                             });
-                    } else if (checkbuttons.selected == SplitCheckButtons.SplitType.RANGE) {
+                    } else if (checkbuttons.selected == SplitType.RANGE) {
                         var pages = checkbuttons.range;
                         process_begin ();
                         split_file_range.begin (file_pdf.get_path (), output_file, pages,
                             (obj, res) => {
                                 process_finished (split_file_range.end (res));
                             });
-                    }else if (checkbuttons.selected == SplitCheckButtons.SplitType.COLORS) {
+                    }else if (checkbuttons.selected == SplitType.COLORS) {
                         var pages = get_colors (file_pdf.get_path ());
                         if (pages != "" && pages != ";") {
                             var pages_black = group_list (pages.split (";")[0]);

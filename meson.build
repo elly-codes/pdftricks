@@ -49,7 +49,8 @@ code_files = files(
     'src/Views/ConvertPDF.vala',
     'src/Widgets/FileChooserButton.vala',
     'src/Widgets/SplitCheckButtons.vala',
-    'src/Widgets/MergeList.vala'
+    'src/Widgets/MergeList.vala',
+    'src/Backend/Ghostscript.vala'
 )
 
 executable(
