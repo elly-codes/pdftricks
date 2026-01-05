@@ -59,7 +59,7 @@ public class PDFTricks.MainWindow : Gtk.ApplicationWindow {
     construct {
         Intl.setlocale ();
         title = _("PDFTricks");
-        icon_name = "com.github.muriloventuroso.pdftricks";
+        icon_name = "io.github.ellie_commons.pdftricks";
 
         var actions = new SimpleActionGroup ();
         actions.add_action_entries (ACTION_ENTRIES, this);

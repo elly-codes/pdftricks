@@ -1,11 +1,8 @@
-id: com.github.muriloventuroso.pdftricks
-# elementary SDK is not available on Flathub, so use the elementary BaseApp instead
-base: io.elementary.BaseApp
-base-version: 'circe-24.08'
-runtime: org.gnome.Platform
-runtime-version: '49'
-sdk: org.gnome.Sdk
-command: com.github.muriloventuroso.pdftricks
+id: io.github.ellie_commons.pdftricks
+runtime: io.elementary.Platform
+runtime-version: '8.2'
+sdk: io.elementary.Sdk
+command: io.github.ellie_commons.pdftricks
 
 finish-args:
   - '--share=ipc'

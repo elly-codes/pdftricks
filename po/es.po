@@ -1,11 +1,11 @@
 # Spanish translation for PDF Tricks.
 # Copyright (C) 2019 Murilo Venturoso
-# This file is distributed under the same license as the com.github.muriloventuroso.pdftricks package.
+# This file is distributed under the same license as the io.github.ellie_commons.pdftricks package.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.muriloventuroso.pdftricks\n"
+"Project-Id-Version: io.github.ellie_commons.pdftricks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-23 08:22-0300\n"
 "PO-Revision-Date: 2022-09-21 22:18+0000\n"

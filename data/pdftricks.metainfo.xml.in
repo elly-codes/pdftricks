@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018 MuriloVenturoso <muriloventuroso@gmail.com> -->
 <component type="desktop">
-  <id>com.github.muriloventuroso.pdftricks</id>
+  <id>io.github.ellie_commons.pdftricks</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_group>MuriloVenturoso</project_group>
   <project_license>GPL-3.0+</project_license>
@@ -134,7 +134,7 @@
     </screenshot>
   </screenshots>
   <provides>
-    <binary>com.github.muriloventuroso.pdftricks</binary>
+    <binary>io.github.ellie_commons.pdftricks</binary>
   </provides>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>

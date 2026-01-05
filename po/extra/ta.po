@@ -19,37 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:8
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:3
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:8
+#: data/io.github.ellie_commons.pdftricks.desktop.in:3
 msgid "PDF Tricks"
 msgstr "PDF தந்திரங்கள்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:9
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:9
 msgid "Tricks for PDF Files"
 msgstr "PDF கோப்புகளுக்கான தந்திரங்கள்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:11
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:11
 msgid "A simple, efficient application for small manipulations in PDF files."
 msgstr "PDF கோப்புகளில் சிறிய கையாளுதல்களுக்கான எளிய, திறமையான பயன்பாடு."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:13
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:13
 msgid "Compress PDF (multiple resolutions)"
 msgstr "PDF ஐ சுருக்கவும் (பல தீர்மானங்கள்)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:14
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:14
 msgid "Split PDF (All pages or page ranges)"
 msgstr "பி.டி.எஃப் (அனைத்து பக்கங்கள் அல்லது பக்க வரம்புகள்)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:15
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:15
 msgid "Merge PDF"
 msgstr "PDF ஐ ஒன்றிணைக்கவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:16
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:64
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:16
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:64
 msgid "Convert PDF"
 msgstr "PDF ஐ மாற்றவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:18
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:18
 msgid ""
 "In recent versions of ImageMagick has been added a security policy that "
 "blocks manipulations in PDF files. This affects PDFTricks operations. To "
@@ -61,78 +61,78 @@ msgstr ""
 "உங்கள் இமேச்மேசிக் நிறுவலின் அமைப்புகளை மாற்றவும். அறிவுறுத்தல்களுக்கு டி முகப்புப்பக்கத்தை "
 "சரிபார்க்கவும்."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:23
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:23
 msgid "Disable button when is processing"
 msgstr "செயலாக்கும்போது பொத்தானை முடக்கு"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:24
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:24
 msgid "Fix build with vala 0.44"
 msgstr "வாலா 0.44 உடன் உருவாக்க சரிசெய்யவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:25
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:25
 msgid "Update Translations"
 msgstr "மொழிபெயர்ப்புகளைப் புதுப்பிக்கவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:26
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:47
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:65
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:70
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:26
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:47
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:65
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:70
 msgid "Bugfix"
 msgstr "பிழைத்திருத்தம்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:31
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:31
 msgid "spinner when processing"
 msgstr "செயலாக்கும்போது சுழற்பந்து வீச்சாளர்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:36
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:36
 msgid "Fix unselectable texts after merging"
 msgstr "ஒன்றிணைத்த பிறகு தேர்ந்தெடுக்கப்படாத நூல்களை சரிசெய்யவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:41
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:41
 msgid "Fix density merge PDF"
 msgstr "சரிசெய்யும் அடர்த்தி PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:46
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:46
 msgid "Compression levels"
 msgstr "சுருக்க நிலைகள்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:52
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:52
 msgid "Convert PNG, JPG, SVG, BMP to PDF"
 msgstr "பி.என்.சி, சே.பி.சி, எச்.வி.சி, பி.எம்.பி. இருந்து எஆவ க்கு மாற்று"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:53
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:53
 msgid "Merge image files into PDF"
 msgstr "படக் கோப்புகளை PDF இல் ஒன்றிணைக்கவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:58
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:58
 msgid "Convert JPG to PDF"
 msgstr "JPG ஐ PDF ஆக மாற்றவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:59
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:59
 msgid "Split pages by color (Black-White / Colored)"
 msgstr "வண்ணத்தால் பிளவு பக்கங்கள் (கருப்பு-வெள்ளை / வண்ணம்)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:75
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:75
 msgid "Compress File"
 msgstr "கோப்பை சுருக்கவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:76
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:76
 msgid "Split File"
 msgstr "பிளவு கோப்பு"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:77
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:77
 msgid "Merge File"
 msgstr "கோப்பை ஒன்றிணைக்கவும்"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:126
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:126
 msgid "Murilo Venturoso"
 msgstr "முரிலோ வென்டூரோசோ"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:4
+#: data/io.github.ellie_commons.pdftricks.desktop.in:4
 msgid "Tips & Tricks for PDF files"
 msgstr "PDF கோப்புகளுக்கான உதவிக்குறிப்புகள் மற்றும் தந்திரங்கள்"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:6
+#: data/io.github.ellie_commons.pdftricks.desktop.in:6
 msgid ""
 "A simple, efficient app for small manipulation of PDF files. Compress, "
 "split, merge and convert PDF."
@@ -140,10 +140,10 @@ msgstr ""
 "PDF கோப்புகளின் சிறிய கையாளுதலுக்கான எளிய, திறமையான பயன்பாடு. PDF ஐ சுருக்கவும், "
 "பிரிக்கவும், ஒன்றிணைக்கவும் மற்றும் மாற்றவும்."
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:11
-msgid "com.github.muriloventuroso.pdftricks"
-msgstr "com.github.muriloventuroso.pdftricks"
+#: data/io.github.ellie_commons.pdftricks.desktop.in:11
+msgid "io.github.ellie_commons.pdftricks"
+msgstr "io.github.ellie_commons.pdftricks"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:15
+#: data/io.github.ellie_commons.pdftricks.desktop.in:15
 msgid "PDF;utilities;"
 msgstr "PDF; பயன்பாடுகள்;"

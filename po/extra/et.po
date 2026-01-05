@@ -19,37 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.9-dev\n"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:8
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:3
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:8
+#: data/io.github.ellie_commons.pdftricks.desktop.in:3
 msgid "PDF Tricks"
 msgstr "PDF Tricks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:9
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:9
 msgid "Tricks for PDF Files"
 msgstr "Trikid pdf-failide jaoks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:11
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:11
 msgid "A simple, efficient application for small manipulations in PDF files."
 msgstr "Lihtne ja tõhus rakendus igapäevasteks toiminguteks pdf-failidega."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:13
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:13
 msgid "Compress PDF (multiple resolutions)"
 msgstr "Paki pdf-fail kokku (erinevate resolutsioonide võimalus)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:14
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:14
 msgid "Split PDF (All pages or page ranges)"
 msgstr "Jaga pdf-fail tükkideks (kas kõikide lehtede või lehevahemike kaupa)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:15
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:15
 msgid "Merge PDF"
 msgstr "Liida pdf-failid"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:16
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:64
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:16
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:64
 msgid "Convert PDF"
 msgstr "Konverteeri pdf-fail teise vormingusse"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:18
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:18
 msgid ""
 "In recent versions of ImageMagick has been added a security policy that "
 "blocks manipulations in PDF files. This affects PDFTricks operations. To "
@@ -61,78 +61,78 @@ msgstr ""
 "sa muuta ImageMagicku seadistustest ning vastava juhendi leiad nende "
 "veebisaidist."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:23
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:23
 msgid "Disable button when is processing"
 msgstr "Keelasime nupud, kui toiming on pooleli"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:24
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:24
 msgid "Fix build with vala 0.44"
 msgstr "Tegime korda kompileerimise vala versiooniga 0.44"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:25
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:25
 msgid "Update Translations"
 msgstr "Uuendasime tõlkeid"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:26
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:47
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:65
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:70
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:26
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:47
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:65
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:70
 msgid "Bugfix"
 msgstr "Veaparandused"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:31
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:31
 msgid "spinner when processing"
 msgstr "pöörlev ikoon töötlemise ajal"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:36
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:36
 msgid "Fix unselectable texts after merging"
 msgstr "Parandasime mestimise järel tekkinud valimatud tekstid"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:41
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:41
 msgid "Fix density merge PDF"
 msgstr "Parandasime mestimise järel tekkinud pdf-failide tiheduse vead"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:46
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:46
 msgid "Compression levels"
 msgstr "Pakkimise tasemed"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:52
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:52
 msgid "Convert PNG, JPG, SVG, BMP to PDF"
 msgstr "Konverteeri png-, jpg-, svg- ja bmp-failid pdf-failideks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:53
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:53
 msgid "Merge image files into PDF"
 msgstr "Mesti pildid pdf-failiks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:58
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:58
 msgid "Convert JPG to PDF"
 msgstr "Konverteeri jpg-fail pdf-failiks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:59
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:59
 msgid "Split pages by color (Black-White / Colored)"
 msgstr "Jaga lehed värvide alausel (must-valge ja värviline)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:75
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:75
 msgid "Compress File"
 msgstr "Paki fail kokku"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:76
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:76
 msgid "Split File"
 msgstr "Jaga fail tükkideks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:77
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:77
 msgid "Merge File"
 msgstr "Mesti fail üheks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:126
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:126
 msgid "Murilo Venturoso"
 msgstr "Murilo Venturoso"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:4
+#: data/io.github.ellie_commons.pdftricks.desktop.in:4
 msgid "Tips & Tricks for PDF files"
 msgstr "Väikesed trikid pdf-failidega"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:6
+#: data/io.github.ellie_commons.pdftricks.desktop.in:6
 msgid ""
 "A simple, efficient app for small manipulation of PDF files. Compress, "
 "split, merge and convert PDF."
@@ -140,10 +140,10 @@ msgstr ""
 "Lihtne ja tõhus rakendus igapäevasteks toiminguteks pdf-failidega. Tihenda, "
 "jaga, mesti või konverteeri pdf-faile."
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:11
-msgid "com.github.muriloventuroso.pdftricks"
-msgstr "com.github.muriloventuroso.pdftricks"
+#: data/io.github.ellie_commons.pdftricks.desktop.in:11
+msgid "io.github.ellie_commons.pdftricks"
+msgstr "io.github.ellie_commons.pdftricks"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:15
+#: data/io.github.ellie_commons.pdftricks.desktop.in:15
 msgid "PDF;utilities;"
 msgstr "pdf;failid;konverteerimine;tarvikud;jagamine;mestimine;"

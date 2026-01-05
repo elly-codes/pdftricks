@@ -1,6 +1,6 @@
 # project name and programming language
 project(
-    'com.github.muriloventuroso.pdftricks',
+    'io.github.ellie_commons.pdftricks',
     'vala',
     'c',
     version: '0.3.0')
