@@ -11,56 +11,48 @@ finish-args:
   - '--socket=wayland'
 
 modules:
-
+  # Spawned in commandline to manipulate pdf files
   - name: ghostscript
+    sources:
+      - type: archive
+        url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.xz
+        sha256: 64352648c2c081c8a9fb1a12dc1965e01ead7c57f58b72d1b54f6ef1cef3c561
+        x-checker-data:
+          type: anitya
+          project-id: 1157
+          url-template: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${major}0$minor$patch/ghostscript-$version.tar.xz
     config-opts:
-      - '--disable-cups'
-    build-options:
-      arch:
-        aarch64:
-          cppflags: '-DPNG_ARM_NEON_OPT=0'
+      - --disable-contrib
+      - --disable-cups
+      - --disable-dbus
+      - --disable-gtk
+      - --without-cal
+      - --without-ijs
+      - --without-libidn
+      - --without-libpaper
+      - --without-libtiff
+      - --without-tesseract
+      - --without-leptonica
+      - --without-urf
+      - --without-x
     make-args:
       - so
     make-install-args:
       - soinstall
     cleanup:
-      - /share/ghostscript/9.26/doc/
-      - /share/ghostscript/9.26/examples
-      - /share/man/
       - /bin/dvipdf
-      - /bin/font2c
-      - /bin/gsbj
-      - /bin/gsdj500
-      - /bin/gslp
-      - /bin/lprsetup.sh
-      - /bin/pdf2ps
-      - /bin/pf2afm
-      - /bin/printafm
-      - /bin/ps2epsi
-      - /bin/ps2pdfwr
-      - /bin/ps2pdf13
-      - /bin/wftopfa
       - /bin/eps2eps
-      - /bin/gsdj
-      - /bin/gslj
+      - /bin/gpcl6
+      - /bin/gsbj
+      - /bin/gsd*
+      - /bin/gsl
       - /bin/gsnd
-      - /bin/pdf2dsc
-      - /bin/pfbtopfa
-      - /bin/pphs
-      - /bin/ps2ascii
-      - /bin/ps2pdf
-      - /bin/ps2pdf12
-      - /bin/ps2pdf14
-      - /bin/ps2ps2
-      - /bin/unix-lpr.sh
-    sources:
-      - type: archive
-        url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostscript-9.54.0.tar.xz
-        sha256: c2b7b43cde600f4e70efb2cd95865f6d884a67315c3de235914697d8ccde6e3b
-      - type: shell
-        commands:
-          - rm -rf libpng/pngread.c
+      - /bin/gxps
+      - /include
+      - /share/doc
+      - /share/man
 
+  # Spawned in commandline for image processing
   - name: imagemagick
     config-opts:
       - '--enable-static=yes'
