@@ -21,37 +21,40 @@
 
 namespace PDFTricks.Backend {
 
-
-    private async bool merge_file (string inputs, string output_file) {
+    private async bool merge_file (string[] inputs, string output_file) {
         bool ret = true;
-        SourceFunc callback = merge_file.callback;
-        ThreadFunc<void*> run = () => {
-            string output, stderr = "";
-            int exit_status = 0;
-            try {
-                var cmd = "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=" + output_file + " -dBATCH " + inputs;
-                Process.spawn_command_line_sync (cmd, out output, out stderr, out exit_status);
-            } catch (Error e) {
-                critical (e.message);
-                ret = false;
-            }
-            if (output != "" || exit_status != 0 || stderr != "") {
-                if (output.contains ("Error")) {
-                    ret = false;
-                }
-                if (exit_status != 0) {
-                    ret = false;
-                }
-            }
-            Idle.add ((owned) callback);
-            return null;
-        };
-        try {
-            new Thread<void*>.try (null, run);
-        } catch (Error e) {
-            warning (e.message);
+
+        all_files = ""
+        foreach (var filepath in inputs) {
+            all_files = all_files + " " + filepath;
         }
-        yield;
+
+        string output, stderr = "";
+        int exit_status = 0;
+
+
+        try {
+            var cmd = "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=" + "\"" + output_file + "\"" + " -dBATCH " + all_files;
+            Process.spawn_command_line_async (cmd, out output, out stderr, out exit_status);
+
+        } catch (Error e) {
+            critical (e.message);
+            ret = false;
+        }
+        print (stdout);
+        print (stderr);
+        print (exit_status.to_string ());
+
+        if (output != "" || exit_status != 0 || stderr != "") {
+            if (output.contains ("Error")) {
+                ret = false;
+            };
+            if (exit_status != 0) {
+                ret = false;
+            };
+        };
+
         return ret;
     }
+
 }
