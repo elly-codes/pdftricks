@@ -28,11 +28,11 @@ public enum PDFTricks.Compression {
 
     public string to_friendly_string () {
         switch (this) {
-            case SCREEN: return _("Extreme compression");
-            case PRINTER: return _("Medium compression");
+            case SCREEN: return _("Highest compression");
+            case PRINTER: return _("Higher compression");
             case EBOOK: return _("Recommended compression");
-            case DEFAULT: return _("Default compression");
-            case PREPRESS: return _("Less compression");
+            case DEFAULT: return _("Lower compression");
+            case PREPRESS: return _("Lowest compression");
             default: return _("");
         }
     }
