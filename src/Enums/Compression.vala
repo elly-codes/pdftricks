@@ -20,47 +20,52 @@
 */
 
 public enum PDFTricks.Compression {
-    STRONG,
-    MEDIUM,
-    RECOMMENDED,
-    LESS;
+    SCREEN,
+    PRINTER,
+    EBOOK,
+    DEFAULT,
+    PREPRESS;
 
     public string to_friendly_string () {
         switch (this) {
-            case STRONG: return _("Extreme compression");
-            case MEDIUM: return _("Medium compression");
-            case RECOMMENDED: return _("Recommended compression");
-            case LESS: return _("Less compression");
-            default: return _("Recommended compression");
+            case SCREEN: return _("Highest compression");
+            case PRINTER: return _("Higher compression");
+            case EBOOK: return _("Recommended compression");
+            case DEFAULT: return _("Lower compression");
+            case PREPRESS: return _("Lowest compression");
+            default: return _("");
         }
     }
 
     public string to_comment () {
         switch (this) {
-            case STRONG: return _("Less quality, high compression");
-            case MEDIUM: return _("Good quality, optimized for printing");
-            case RECOMMENDED: return _("Good quality, good compression");
-            case LESS: return _("High quality, less compression");
-            default: return _("Good quality, good compression");
+            case SCREEN: return _("Less quality, small file size, adapted for screens and emails");
+            case PRINTER: return _("Acceptable quality, smaller file size, optimized for printing");
+            case EBOOK: return _("Good quality, reduced file size, optimized for ebooks");
+            case DEFAULT: return _("Higher quality and file size, for any usage");
+            case PREPRESS: return _("High quality, high file size, for prepress");
+            default: return _("");
         }
     }
 
     public string to_parameter () {
         switch (this) {
-            case STRONG: return "screen";
-            case MEDIUM: return "printer";
-            case RECOMMENDED: return "ebook";
-            case LESS: return "prepress";
-            default: return _("Good quality, good compression");
+            case SCREEN: return "screen";
+            case PRINTER: return "printer";
+            case EBOOK: return "ebook";
+            case DEFAULT: return "default";
+            case PREPRESS: return "prepress";
+            default: return _("");
         }
     }
 
     public static string[] choices () {
         return {
-            STRONG.to_friendly_string (),
-            MEDIUM.to_friendly_string (),
-            RECOMMENDED.to_friendly_string (),
-            LESS.to_friendly_string ()
+            SCREEN.to_friendly_string (),
+            PRINTER.to_friendly_string (),
+            EBOOK.to_friendly_string (),
+            DEFAULT.to_friendly_string (),
+            PREPRESS.to_friendly_string ()
         };
     }
 }

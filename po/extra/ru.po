@@ -20,37 +20,37 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.1-dev\n"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:8
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:3
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:8
+#: data/io.github.ellie_commons.pdftricks.desktop.in:3
 msgid "PDF Tricks"
 msgstr "Улучшатель PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:9
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:9
 msgid "Tricks for PDF Files"
 msgstr "Трюки для PDF файлов"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:11
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:11
 msgid "A simple, efficient application for small manipulations in PDF files."
 msgstr "Простое эффективное приложение для небольших манипуляций с файлами PDF."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:13
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:13
 msgid "Compress PDF (multiple resolutions)"
 msgstr "Сжать PDF (поддержка файлов с разным разрешением)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:14
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:14
 msgid "Split PDF (All pages or page ranges)"
 msgstr "Разделить PDF (все страницы или диапазоны страниц)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:15
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:15
 msgid "Merge PDF"
 msgstr "Объединить PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:16
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:64
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:16
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:64
 msgid "Convert PDF"
 msgstr "Преобразовать PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:18
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:18
 msgid ""
 "In recent versions of ImageMagick has been added a security policy that "
 "blocks manipulations in PDF files. This affects PDFTricks operations. To "
@@ -63,78 +63,78 @@ msgstr ""
 "установленной версии ImageMagick. Соответствующие инструкции представлены на "
 "главной странице."
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:23
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:23
 msgid "Disable button when is processing"
 msgstr "Отключить кнопку во время обработки"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:24
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:24
 msgid "Fix build with vala 0.44"
 msgstr "Исправление сборки с вала 0.44"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:25
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:25
 msgid "Update Translations"
 msgstr "Обновить переводы"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:26
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:47
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:65
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:70
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:26
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:47
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:65
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:70
 msgid "Bugfix"
 msgstr "Исправлена ошибка"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:31
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:31
 msgid "spinner when processing"
 msgstr "счетчик при обработке"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:36
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:36
 msgid "Fix unselectable texts after merging"
 msgstr "Исправить невыбираемые тексты после слияния"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:41
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:41
 msgid "Fix density merge PDF"
 msgstr "Исправление слияния плотности PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:46
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:46
 msgid "Compression levels"
 msgstr "Степени сжатия"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:52
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:52
 msgid "Convert PNG, JPG, SVG, BMP to PDF"
 msgstr "Преобразовать PNG, JPG, SVG, BMP в PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:53
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:53
 msgid "Merge image files into PDF"
 msgstr "Объединить изображения в файл PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:58
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:58
 msgid "Convert JPG to PDF"
 msgstr "Преобразовать JPG в PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:59
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:59
 msgid "Split pages by color (Black-White / Colored)"
 msgstr "Разделение страниц по цвету (Черно-белый/Цветной)"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:75
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:75
 msgid "Compress File"
 msgstr "Сжать файл"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:76
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:76
 msgid "Split File"
 msgstr "Разделить файл"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:77
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:77
 msgid "Merge File"
 msgstr "Объединить файл"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:126
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:126
 msgid "Murilo Venturoso"
 msgstr "Мурило Вентурозо"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:4
+#: data/io.github.ellie_commons.pdftricks.desktop.in:4
 msgid "Tips & Tricks for PDF files"
 msgstr "Советы и подсказки для файлов PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:6
+#: data/io.github.ellie_commons.pdftricks.desktop.in:6
 msgid ""
 "A simple, efficient app for small manipulation of PDF files. Compress, "
 "split, merge and convert PDF."
@@ -142,10 +142,10 @@ msgstr ""
 "Простое и эффективное приложение для небольших манипуляций с файлами PDF, "
 "позволяющее сжимать, разделять, объединять и преобразовать PDF."
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:11
-msgid "com.github.muriloventuroso.pdftricks"
-msgstr "com.github.muriloventuroso.pdftricks"
+#: data/io.github.ellie_commons.pdftricks.desktop.in:11
+msgid "io.github.ellie_commons.pdftricks"
+msgstr "io.github.ellie_commons.pdftricks"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:15
+#: data/io.github.ellie_commons.pdftricks.desktop.in:15
 msgid "PDF;utilities;"
 msgstr "PDF;утилиты;"

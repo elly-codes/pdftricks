@@ -1,6 +1,6 @@
 # project name and programming language
 project(
-    'com.github.muriloventuroso.pdftricks',
+    'io.github.ellie_commons.pdftricks',
     'vala',
     'c',
     version: '0.3.0')
@@ -49,7 +49,8 @@ code_files = files(
     'src/Views/ConvertPDF.vala',
     'src/Widgets/FileChooserButton.vala',
     'src/Widgets/SplitCheckButtons.vala',
-    'src/Widgets/MergeList.vala'
+    'src/Widgets/MergeList.vala',
+    'src/Backend/Ghostscript.vala'
 )
 
 executable(

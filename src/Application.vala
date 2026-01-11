@@ -33,7 +33,7 @@ public class PDFTricks.Application : Gtk.Application {
         };
 
         public Application () {
-            Object (application_id: "com.github.muriloventuroso.pdftricks");
+            Object (application_id: "io.github.ellie_commons.pdftricks");
         }
 
         construct {

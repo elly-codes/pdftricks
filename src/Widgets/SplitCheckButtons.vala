@@ -19,6 +19,8 @@
 * Authored by: Murilo Venturoso <muriloventuroso@gmail.com>
 */
 
+public enum PDFTricks.SplitType {ALL, RANGE, COLORS, NONE;}
+
 public class PDFTricks.SplitCheckButtons : Gtk.Box {
 
     private Gtk.CheckButton btn_all;
@@ -29,7 +31,7 @@ public class PDFTricks.SplitCheckButtons : Gtk.Box {
 
     private Gtk.CheckButton btn_colors;
 
-    public enum SplitType {ALL, RANGE, COLORS, NONE;}
+
     public SplitType selected {
         get {
             if (btn_all.active) {return SplitType.ALL;}

@@ -19,37 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:8
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:3
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:8
+#: data/io.github.ellie_commons.pdftricks.desktop.in:3
 msgid "PDF Tricks"
 msgstr "PDF Tricks"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:9
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:9
 msgid "Tricks for PDF Files"
 msgstr "PDF 文件使用技巧"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:11
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:11
 msgid "A simple, efficient application for small manipulations in PDF files."
 msgstr "一个简单、高效的应用程序，用于 PDF 文件的小操作。"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:13
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:13
 msgid "Compress PDF (multiple resolutions)"
 msgstr "压缩 PDF（多个分辨率）"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:14
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:14
 msgid "Split PDF (All pages or page ranges)"
 msgstr "拆分 PDF（全部页面或页面范围）"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:15
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:15
 msgid "Merge PDF"
 msgstr "合并 PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:16
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:64
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:16
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:64
 msgid "Convert PDF"
 msgstr "转换 PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:18
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:18
 msgid ""
 "In recent versions of ImageMagick has been added a security policy that "
 "blocks manipulations in PDF files. This affects PDFTricks operations. To "
@@ -59,88 +59,88 @@ msgstr ""
 "ImageMagick 的新近版本添加了安全策略，禁用了 PDF 文件处理。这会影响 "
 "PDFTricks 的操作。要修复问题，请更改您的 ImageMagick 设置。查看主页获取指示。"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:23
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:23
 msgid "Disable button when is processing"
 msgstr "运行时禁用按钮"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:24
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:24
 msgid "Fix build with vala 0.44"
 msgstr "修复使用 Vala 0.44 的版本"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:25
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:25
 msgid "Update Translations"
 msgstr "更新翻译"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:26
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:47
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:65
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:70
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:26
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:47
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:65
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:70
 msgid "Bugfix"
 msgstr "缺陷修复"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:31
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:31
 msgid "spinner when processing"
 msgstr "处理中显示旋转图标"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:36
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:36
 msgid "Fix unselectable texts after merging"
 msgstr "修复合并后无法选中的文本"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:41
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:41
 msgid "Fix density merge PDF"
 msgstr "修复密度合并 PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:46
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:46
 msgid "Compression levels"
 msgstr "压缩等级"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:52
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:52
 msgid "Convert PNG, JPG, SVG, BMP to PDF"
 msgstr "把 PNG、JPG、SVG、BMP 文件转换为 PDF 文件"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:53
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:53
 msgid "Merge image files into PDF"
 msgstr "将图像文件并入 PDF"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:58
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:58
 msgid "Convert JPG to PDF"
 msgstr "将 JPG 文件转换为 PDF 文件"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:59
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:59
 msgid "Split pages by color (Black-White / Colored)"
 msgstr "按色彩（黑白/彩色）拆分页面"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:75
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:75
 msgid "Compress File"
 msgstr "压缩文件"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:76
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:76
 msgid "Split File"
 msgstr "分割文件"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:77
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:77
 msgid "Merge File"
 msgstr "合并文件"
 
-#: data/com.github.muriloventuroso.pdftricks.appdata.xml.in:126
+#: data/io.github.ellie_commons.pdftricks.appdata.xml.in:126
 msgid "Murilo Venturoso"
 msgstr "Murilo Venturoso"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:4
+#: data/io.github.ellie_commons.pdftricks.desktop.in:4
 msgid "Tips & Tricks for PDF files"
 msgstr "PDF文件的小提示和小技巧"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:6
+#: data/io.github.ellie_commons.pdftricks.desktop.in:6
 msgid ""
 "A simple, efficient app for small manipulation of PDF files. Compress, "
 "split, merge and convert PDF."
 msgstr "一个用于PDF文件小操作的简单、高效的应用程序。压缩、分割、合并和转换 PDF。"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:11
-msgid "com.github.muriloventuroso.pdftricks"
-msgstr "com.github.muriloventuroso.pdftricks"
+#: data/io.github.ellie_commons.pdftricks.desktop.in:11
+msgid "io.github.ellie_commons.pdftricks"
+msgstr "io.github.ellie_commons.pdftricks"
 
-#: data/com.github.muriloventuroso.pdftricks.desktop.in:15
+#: data/io.github.ellie_commons.pdftricks.desktop.in:15
 msgid "PDF;utilities;"
 msgstr "PDF;utilities;工具;"
 

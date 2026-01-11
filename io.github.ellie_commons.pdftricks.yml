@@ -1,0 +1,59 @@
+id: io.github.ellie_commons.pdftricks
+runtime: io.elementary.Platform
+runtime-version: '8.2'
+sdk: io.elementary.Sdk
+command: io.github.ellie_commons.pdftricks
+
+finish-args:
+  - '--share=ipc'
+  - '--device=dri'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+
+modules:
+  # Spawned in commandline to manipulate pdf files
+  - name: ghostscript
+    sources:
+      - type: archive
+        url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.xz
+        sha256: 64352648c2c081c8a9fb1a12dc1965e01ead7c57f58b72d1b54f6ef1cef3c561
+        x-checker-data:
+          type: anitya
+          project-id: 1157
+          url-template: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${major}0$minor$patch/ghostscript-$version.tar.xz
+    config-opts:
+      - --disable-contrib
+      - --disable-cups
+      - --disable-dbus
+      - --disable-gtk
+      - --without-cal
+      - --without-ijs
+      - --without-libidn
+      - --without-libpaper
+      - --without-libtiff
+      - --without-tesseract
+      - --without-leptonica
+      - --without-urf
+      - --without-x
+    make-args:
+      - so
+    make-install-args:
+      - soinstall
+    cleanup:
+      - /bin/dvipdf
+      - /bin/eps2eps
+      - /bin/gpcl6
+      - /bin/gsbj
+      - /bin/gsd*
+      - /bin/gsl
+      - /bin/gsnd
+      - /bin/gxps
+      - /include
+      - /share/doc
+      - /share/man
+
+  - name: pdftricks
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .

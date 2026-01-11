@@ -7,7 +7,7 @@
 A simple, efficient application for small manipulations in PDF files.
 
 <p align="center">
-  <a href="https://appcenter.elementary.io/com.github.muriloventuroso.pdftricks"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
+  <a href="https://appcenter.elementary.io/io.github.ellie_commons.pdftricks"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>
 </p>
 
 ### Features
@@ -31,7 +31,7 @@ A simple, efficient application for small manipulations in PDF files.
 ![Screenshot](data/screenshot5.png)
 
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.muriloventuroso.pdftricks)
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/io.github.ellie_commons.pdftricks)
 
 
 ## Developing and Building
@@ -50,10 +50,10 @@ Run `meson build` to configure the build environment and run `ninja test` to bui
     cd build
     ninja test
 
-To install, use `ninja install`, then execute with `com.github.muriloventuroso.pdftricks`
+To install, use `ninja install`, then execute with `io.github.ellie_commons.pdftricks`
 
     sudo ninja install
-    com.github.muriloventuroso.pdftricks
+    io.github.ellie_commons.pdftricks
 
 
 ## ImageMagick
@@ -82,11 +82,11 @@ And ready!
 
 Install:
 
-    flatpak install flathub com.github.muriloventuroso.pdftricks
+    flatpak install flathub io.github.ellie_commons.pdftricks
 
 Run:
 
-    flatpak run com.github.muriloventuroso.pdftricks
+    flatpak run io.github.ellie_commons.pdftricks
 
 ## Credits
 * [Fatih20](https://github.com/Fatih20)
@@ -94,5 +94,5 @@ Run:
 
 -----
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.muriloventuroso.pdftricks)
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/io.github.ellie_commons.pdftricks)
 

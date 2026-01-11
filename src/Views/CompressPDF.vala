@@ -37,7 +37,7 @@ public class PDFTricks.CompressPDF : PDFTricks.PageTemplate {
         level_description.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         dropdown = new Gtk.DropDown.from_strings (Compression.choices ());
-        dropdown.selected = Compression.RECOMMENDED;
+        dropdown.selected = Compression.EBOOK;
 
         compress_button = new Gtk.Button.with_label (_("Compress")) {
             vexpand = true
